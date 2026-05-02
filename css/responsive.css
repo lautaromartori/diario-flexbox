@@ -2,20 +2,52 @@
     #nav-li-hamburger{
         display: flex;
     }
+    
+    .nav-main{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-ul-item{
+        display: none;
+    }
     #container{
         display: flex;
         flex-direction: column;
     }
+    .diary-header time{
+        font-size: 11px;
+}
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
     #nav-li-hamburger{
         display: flex;
     }
+     
+    .nav-main{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-ul-item{
+        display: none;
+    }
+
+    .nav-ul-item{
+        display: none;
+    }
     #container{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+        #right-content{
+        border-right: 1px dashed black;
+        padding: 100px;}
+
+    #left-content{
+        border-right: 1px dashed black;
+        padding: 100px;  }
 }
 
 @media (min-width: 1201px) {
@@ -25,8 +57,15 @@
     #container{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: start baseline;
         gap: 30px;
         justify-content: space-between;
     }
+    #right-content{
+        border-left: 1px dashed black;
+        padding: 100px;}
+
+    #left-content{
+        border-right: 1px dashed black;
+        padding: 100px;  }
 }
