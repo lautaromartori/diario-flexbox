@@ -40,7 +40,8 @@
 .nav-main {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   padding: 10px;
 }
 
