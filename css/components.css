@@ -1,82 +1,136 @@
-.diary-main-cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-
+.diary-main-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-.diary-main-card{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 400px;
-    max-height: 600px;
-    gap: 15px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-bottom: 20px;
-
+.diary-main-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  max-height: 600px;
+  gap: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
 }
 
-.diary-main-card img{
-   
-    padding: 5px;
-    border-radius: 20px;
-    object-fit: contain;
-    filter: grayscale(100%);
-
+.diary-main-card img {
+  padding: 10px;
+  border-radius: 20px;
+  object-fit: contain;
+  filter: grayscale(100%);
 }
 
-.diary-main-card h3{
-    
-    margin-left: 10px;
-    
+.diary-main-card h3 {
+  margin-left: 10px;
 }
 
-.diary-main-card p{
-    
-    margin: 10px;
-    
+.diary-main-card p {
+  margin: 10px;
 }
 
-.diary-main-card a{
-    
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-style: italic;
-    
+.diary-main-card a {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-style: italic;
 }
 
-.nav-main{
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    padding: 10px;
+.nav-main {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.nav-main ul{
-    display: flex;
-    gap: 20px;
+.nav-main ul {
+  display: flex;
+  gap: 20px;
 }
 
-.diary-header{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    position: relative;
-    
+.diary-header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
 }
 
-.diary-header time{
-   position:absolute;
-   top: 50%;
-   right: 3%;
+.diary-header time {
+  position: absolute;
+  top: 50%;
+  right: 3%;
 }
 
-.main-h1{
-    text-align: center;
-    color: black;
-    letter-spacing: 5px;
-    text-decoration: solid underline;
-    
+.main-h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 5px;
+  text-decoration: solid underline;
+}
+
+#nav-li-hamburger a:hover {
+  color: red;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.secondary-h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 5px;
+  text-decoration: solid underline;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#left-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#left-content li {
+  border-bottom: 1px solid black;
+  text-align: left;
+  margin-left: 5px;
+  width: 100%;  
+  padding-bottom: 10px;  
+}
+
+#left-content a {
+  display: block;
+  width: 100%;
+}
+
+#right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.advertising-card{
+   margin: 20px;
+}
+.advertising-card img {
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.advertising-card p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.advertising-card a {
+  color: blue;
+  text-decoration: underline;
+}
+.advertising-card a:visited {
+  color: purple;
+}
+
+.advertising-card a:active {
+  color: red;
 }
